@@ -9,6 +9,7 @@ caps['platform'] = 'Windows 2008';
 if(process.env.SERVER == "prod"){    
     baseUrl='http://www.kevinlamping.com/';
 }*/
+    console.log("printing.. url..");
     console.log(baseUrl);
 module.exports = {
     // ...
