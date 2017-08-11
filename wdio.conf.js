@@ -1,6 +1,6 @@
 var notifier = require('node-notifier');
 var expect = require('chai').expect;
-//var baseUrl = 'http://127.0.0.1:8303/';
+var baseUrl = 'http://www.fanatics.com/';
 
 var caps = {browserName: 'firefox'};
 caps['platform'] = 'Windows 2008';
@@ -46,11 +46,11 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/specs/first/*.js'
+        './test/*.js'
         ],
     // Patterns to exclude.
     exclude: [
-         './test/specs/first/*.page.js'
+         './test/*.page.js'
     ],
     //
     // ============
