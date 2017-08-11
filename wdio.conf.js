@@ -26,7 +26,7 @@ exports.config = {
 
     user:process.env.SAUCE_USERNAME,
     key:process.env.SAUCE_ACCESS_KEY,
-    sauceConnect:true,
+//    sauceConnect:true,
 
 //    user:process.env.BROWSERSTACK_USERNAME,
 //    key:process.env.BROWSERSTACK_ACCESS_KEY,
