@@ -4,12 +4,7 @@
   "description": "Fanatics sample tests (examples, exercises and sample site)",
   "main": "index.js",
   "scripts": {
-    "start": "http-server sample-site -p 8303",
-    "startdan": "http-server dance -p 8304",
-    "test": "wdio",
-    "test:watch": "onchange './**/*.[css,js,html]' './test/*.js' -- wdio",
-    "ghPages": "gh-pages -d sample-site",
-    "selser": "selenium-standalone start"
+    "test": "wdio"
   },
   "repository": {
     "type": "git",
