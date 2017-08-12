@@ -4,23 +4,8 @@ var baseUrl = 'http://www.fanatics.com/';
 
 var caps = {browserName: 'firefox'};
 caps['platform'] = 'Windows 2008';
-//caps['version'] = '54.0';
-/*
-if(process.env.SERVER == "prod"){    
-    baseUrl='http://www.kevinlamping.com/';
-}*/
-    console.log("printing.. url..");
-    console.log(baseUrl);
-module.exports = {
-    // ...
-    reporters: ['dot', 'junit'],
-    reporterOptions: {
-        junit: {
-            outputDir: './'
-        }
-    },
-    // ...
-};
+console.log("printing.. url..");
+console.log(baseUrl);
 
 
 exports.config = {
@@ -47,7 +32,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        'fanatest.js'
+        './test/fanatics.js'
         ],
     // Patterns to exclude.
     //exclude: [
