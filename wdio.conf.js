@@ -10,12 +10,12 @@ console.log(baseUrl);
 
 exports.config = {
 
-    user:process.env.SAUCE_USERNAME,
-    key:process.env.SAUCE_ACCESS_KEY,
+//    user:process.env.SAUCE_USERNAME,
+//    key:process.env.SAUCE_ACCESS_KEY,
 //    sauceConnect:true,
 
-//    user:process.env.BROWSERSTACK_USERNAME,
-//    key:process.env.BROWSERSTACK_ACCESS_KEY,
+    user:process.env.BROWSERSTACK_USERNAME,
+    key:process.env.BROWSERSTACK_ACCESS_KEY,
 //    browserstackLocal:true,
 
 //    user:process.env.TB_KEY,
@@ -120,8 +120,8 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-     services: ['selenium-standalone','sauce'],
-//     services: ['selenium-standalone','browserstack'],
+//     services: ['selenium-standalone','sauce'],
+     services: ['selenium-standalone','browserstack'],
 //       services: ['selenium-standalone','testingbot'],
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
