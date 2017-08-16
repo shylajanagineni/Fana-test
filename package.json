@@ -27,6 +27,7 @@
     "mocha": "^3.4.2",
     "selenium-standalone": "^5.11.2",
     "slash": "^1.0.0",
+    "wdio-allure-reporter": "^0.1.2",
     "wdio-browserstack-service": "^0.1.11",
     "wdio-junit-reporter": "^0.3.0",
     "wdio-mocha-framework": "^0.5.10",
