@@ -54,19 +54,26 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    capabilities: [/*{
+    capabilities: [{
         browserName: 'firefox',
         platform:'WIN8'
         //'browserstack.local':true
-    },*/{
+    },{
 "platform": "WIN8",
-"version": "60",
-"browserName": "chrome"
-  },
-	    {
+//"version": "60",
+"browserName": "opera"
+  },{
 "platform": "WIN8",
 "version": "10",
 "browserName": "ie"
+  },{
+"platform": "WIN8",
+//"version": "10",
+"browserName": "safari"
+  },{
+"platform": "WIN8",
+//"version": "10",
+"browserName": "yandex"
   }
     ],
     //
