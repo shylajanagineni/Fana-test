@@ -70,10 +70,6 @@ exports.config = {
 "platform": "WIN8",
 //"version": "10",
 "browserName": "safari"
-  },{
-"platform": "WIN8",
-//"version": "10",
-"browserName": "yandex"
   }
     ],
     //
