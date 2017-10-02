@@ -175,6 +175,7 @@ exports.config = {
     // variables, such as `browser`. It is the perfect place to define custom commands.
      before: function (capabilities, specs) {
 	  //expect: expectVal
+          expect = require('chai').expect;
      },
     //
     // Hook that gets executed before the suite starts
