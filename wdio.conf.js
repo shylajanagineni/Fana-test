@@ -1,5 +1,5 @@
 var notifier = require('node-notifier');
-var expect = require('chai').expect;
+//var expect = require('chai').expect;
 var baseUrl = 'http://www.fanatics.com/';
 
 var caps = {browserName: 'firefox'};
