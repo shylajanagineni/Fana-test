@@ -14,12 +14,12 @@ exports.config = {
 //    key:process.env.SAUCE_ACCESS_KEY,
 //    sauceConnect:true,
 
-    user:process.env.BROWSERSTACK_USERNAME,
-    key:process.env.BROWSERSTACK_ACCESS_KEY,
+ //   user:process.env.BROWSERSTACK_USERNAME,
+ //   key:process.env.BROWSERSTACK_ACCESS_KEY,
 //    browserstackLocal:true,
 
-//    user:process.env.TB_KEY,
-//    key:process.env.TB_SECRET,
+   user:process.env.TB_KEY,
+   key:process.env.TB_SECRET,
 //    tbTunnel:true,
 
     //
@@ -129,8 +129,8 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
 //     services: ['selenium-standalone','sauce'],
-     services: ['selenium-standalone','browserstack'],
-//       services: ['selenium-standalone','testingbot'],
+//     services: ['selenium-standalone','browserstack'],
+       services: ['selenium-standalone','testingbot'],
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: http://webdriver.io/guide/testrunner/frameworks.html
