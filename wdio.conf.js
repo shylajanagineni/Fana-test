@@ -58,7 +58,7 @@ exports.config = {
         browserName: 'firefox',
         platform:'WIN8'
         //'browserstack.local':true
-    },{
+    }/*,{
 "platform": "WIN8",
 //"version": "60",
 "browserName": "opera"
@@ -70,7 +70,7 @@ exports.config = {
 "platform": "WIN8",
 //"version": "10",
 "browserName": "safari"
-  }
+  }*/
     ],
     //
     // ===================
