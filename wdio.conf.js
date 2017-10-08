@@ -64,7 +64,7 @@ exports.config = {
 "platform": "WIN8",
 "version": "10",
 "browserName": "ie"
-  }*/
+  }
     ],
     //
     // ===================
