@@ -60,11 +60,11 @@ exports.config = {
 "platform": "WIN8",
 //"version": "60",
 "browserName": "chrome"
-  },{
+  }/*,{
 "platform": "WIN8",
 "version": "10",
 "browserName": "ie"
-  }
+  }*/
     ],
     //
     // ===================
