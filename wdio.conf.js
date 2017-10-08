@@ -6,8 +6,6 @@ var caps = {browserName: 'firefox'};
 caps['platform'] = 'Windows 2008';
 console.log("printing.. url..");
 console.log(baseUrl);
-
-
 exports.config = {
 
 //    user:process.env.SAUCE_USERNAME,
