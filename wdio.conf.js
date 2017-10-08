@@ -58,7 +58,7 @@ exports.config = {
         //'browserstack.local':true
     },*/{
 "platform": "WIN8",
-"version": "59",
+"version": "59.0.3071.0",
 "browserName": "chrome"
   }/*,{
 "platform": "WIN8",
