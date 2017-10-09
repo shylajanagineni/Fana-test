@@ -36,6 +36,7 @@ exports.config = {
     exclude: [
          './test/*.page.js'
     ],
+	
     //
     // ============
     // Capabilities
